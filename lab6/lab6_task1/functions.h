@@ -1,0 +1,13 @@
+int inputArraySize();
+void showResult(int *arr, int arrSize);
+void inputElementsManually(int *arr, int arrSize);
+void inputElementsRandomly(int *arr, int arrSize);
+void inputElementsWorst(int *arr, int arrSize);
+int getEvensArrSize(int *arr, int arrSize);
+void composeEvensArr(int *arr, int *arrEvens, int arrSize);
+int chooseVariant();
+void selectionSort(int *arrEvens, int arrSize);
+void merge(int *a, int n);
+void putIntoInitialArray(int *arr, int *arrEvens, int arrSize);
+void clearMemory(int *arr, int *arrEvens);
+void copyArray(int *arr, int *arr2, int arrSize);
